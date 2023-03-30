@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    </style>
+</head>
+
+<body>
+  <form id="price-form">
+    <div>
+      <label for="title">Title</label>
+      <input type="text" id="title" name="title">
+    </div>
+    <div>
+      <label for="storeID">Store</label>
+      <select name="storeID" id="storeID">
+        <option value="1">Steam</option>
+        <option value="2">GamersGate</option>
+        <option value="3">GreenManGaming</option>
+        <option value="4">Amazon</option>
+        <option value="5">GameStop</option>
+        <option value="6">Direct2Drive</option>
+        <option value="7">GoG</option>
+        <option value="8">Origin</option>
+        <option value="9">Get Games</option>
+        <option value="10">Shiny Loot</option>
+        <option value="11">Humble Store</option>
+        <option value="12">Desura</option>
+        <option value="13">Uplay</option>
+        <option value="14">IndieGameStand</option>
+        <option value="15">Fanatical</option>
+        <option value="16">Gamesrocket</option>
+      </select>
+    </div>
+    <div>
+      <label for="upperPrice">Max Price</label>
+      <input type="number" id="upperPrice" name="upperPrice" value="20" min="0">
+    </div>
+    <div>
+      <label for="lowerPrice">Min Price</label>
+      <input type="number" id="lowerPrice" name="lowerPrice" value="0" min="0">
+    </div>
+    <div>
+      <label for="metacritic">Min. Metacritic Rating</label>
+      <input type="number" id="metacritic" name="metacritic" value="0" min="0" max="100">
+    </div>
+    <div>
+      <label for="steamRating">Min. Steam Rating</label>
+      <input type="number" id="steamRating" name="steamRating" value="0" min="0" max="100">
+    </div>
+    <button type="submit" id="submit-btn">Search</button>
+  </form>
+  
+  
+    <table id="game-table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Price</th>
+                <th>Metacritic Score</th>
+                <th>Rating</th>
+                <th>Rating %</th>
+                <th>Deal Rating</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="./jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
+

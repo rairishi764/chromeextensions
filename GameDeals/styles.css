@@ -1,0 +1,107 @@
+#price-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #price-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 8px;
+  }
+  
+  #price-form input,
+  #price-form select {
+    width: 80%;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  #price-form button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #41c248;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .sale-price {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+.savings {
+  font-size: 0.8em;
+  display: block;
+  margin-top: 0.5em;
+  color: #5cb85c;
+}
+
+/* Style for input form */
+input {
+  font-size: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: none;
+  outline: none;
+  width: 30%;
+}
+
+/* Style for button */
+button {
+  background-color: darkgreen;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin-top: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+body {
+    font-weight: normal;
+  }
+
+
+  .logo-image {
+    width: 100px;
+    height: 40px;
+  }

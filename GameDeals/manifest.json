@@ -1,0 +1,19 @@
+{
+    "name": "Steam Deals",
+    "version": "1.0.0",
+    "description": "Get best steam deals",
+    "manifest_version": 3,
+    "author": "Rishi Rai",
+    "icons":{
+        "128":"icons128.png",
+        "48":"icons48.png",
+        "16":"icons16.png"
+    },
+    "action":{
+        "default_icon": "icons48.png",
+        "default_popup": "index.html",
+        "default_title": "Steam Deals"
+    }
+
+}
+
